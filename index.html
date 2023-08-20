@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Kuvina Triangles</title>
+    </head> 
+    <body oncontextmenu="return false;">
+        <div display="table">
+            <input type="text" class="textbox" value="a+b+c" id="formula"><p>Formula</p>
+            <input type="text" class="textbox" value="4" id="modulo"><p>Mod</p>
+            <input type="range" min="100" max="1000" value="100" class="slider" id="scale"><p>Scale</p> 
+            <input type="range" min="1" max="10" value="1" class="slider" id="initOnes"><p>Initial Ones</p>
+            <button id="generate" onclick="initiateDraw()">Generate</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="main.js"></script> 
+    </body> 
+</html>
